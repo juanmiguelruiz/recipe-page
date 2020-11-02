@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=PlayfairDisplay:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900);
+
+.description__recipe {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.7em;
+  line-height: 15px;
+  margin-top: 0%;
+  margin-left: -2%;
+  padding-right: 5%;
+}
+
+.grain {
+  color: #c4c4c4;
+  font-size: 15px;
+}
+
+.image__recipe {
+  width: 90%;
+  display: flex;
+  margin: 0 auto 0 auto;
+}
+
+.info {
+  color: #c4c4c4;
+  font-size: 15px;
+  padding-top: 2.7% !important;
+  margin-right: 0 !important;
+}
+
+.info__serving {
+  padding-left: 0.2em !important;
+}
+
+.info__recipe {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 11px;
+  color: black;
+  padding-top: 0.2em;
+}
+
+.info__recipe span {
+  color: #c4c4c4 !important;
+}
+
+.receipe-app .row{
+  margin-bottom: 0 !important;
+}
+
+.title__recipe {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 0px;
+  padding-top: 3% !important;
+}
+
+.yields{
+    padding-top: 1% !important;
+}
+
+.yields {
+  color: #f2994a;
+  font-size: 15px;
+  padding-top: 2.7% !important;
+  margin-right: 0 !important;
+}
+
+.yields__serving {
+  padding-left: 0.2em;
+}
+
+.yields__recipe {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 11px;
+  color: #f2994a;
+  padding-top: 0.2em;
+}
+
+.yields__recipe span {
+  color: #c4c4c4 !important;
+}

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Card from "./Components/Card";
+import photo from "./assets/img/photo1.png";
+import Ingredients from "./Components/Ingredients";
+import Instructions from "./Components/Instructions";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="receipe-app">
+      <Card
+        title="Classic Cheesecake Recipe"
+        description="Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath."
+        image={photo}
+        yields="12 servings"
+        prep_time="45 minutes"
+        cook_time="1 hour"
+        total_time="7,75 hours"
+      />
+      <Ingredients
+        first_title="Graham Cracker Crust"
+        second_title="Cheesecake"
+      />
+      <Instructions/>
+
+      <p className="source__receipe">Source: https://sallysbakingaddiction.com/classic-cheesecake/ </p>
+      <footer className="footer__receipe">
+      <p>juanmiguelruiz @ DevChallenges.io</p>
+
+      </footer>
     </div>
   );
 }
