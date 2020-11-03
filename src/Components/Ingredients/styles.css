@@ -7,6 +7,10 @@
   color: #333333;
 }
 
+.ingredients{
+  margin-top: 3%;
+}
+
 .subtitle__ingredients {
   font-family: Playfair Display;
   font-style: italic;
@@ -57,3 +61,87 @@
 [type="checkbox"].filled-in:not(:checked) + span:not(.lever):before {
   border: 0px solid transparent;
 }
+
+/*Mobile M*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .checkbox__text {
+    font-size: 1em !important;
+  }
+  .subtitle__ingredients {
+    font-size: 1.1em;
+    line-height: 0.8em;
+  }
+  .title__ingredients {
+    font-size: 1.2em;
+  }
+}
+
+/*Mobile L*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .checkbox__text {
+    font-size: 1.2em !important;
+  }
+  .subtitle__ingredients {
+    font-size: 1.4em;
+    line-height: 0.8em;
+  }
+  .title__ingredients {
+    font-size: 1.5em;
+  }
+
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .checkbox__text {
+    font-size: 1.2em !important;
+  }
+  .subtitle__ingredients {
+    font-size: 1.4em;
+    line-height: 0.8em;
+  }
+  .title__ingredients {
+    font-size: 1.5em;
+  }
+
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .checkbox__text {
+    font-size: 1.2em !important;
+    
+  }
+  .subtitle__ingredients {
+    font-size: 1.4em;
+    line-height: 0.8em;
+  }
+  .title__ingredients {
+    font-size: 1.5em;
+  }
+
+
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px){
+  .checkbox__text {
+    font-size: 1.2em !important;
+    
+  }
+  .subtitle__ingredients {
+    font-size: 1.4em;
+    line-height: 0.8em;
+  }
+  .title__ingredients {
+    font-size: 1.5em;
+  }
+
+}
+
+

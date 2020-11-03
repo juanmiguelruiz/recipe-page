@@ -23,31 +23,7 @@
   margin: 0 auto 0 auto;
 }
 
-.info {
-  color: #c4c4c4;
-  font-size: 15px;
-  padding-top: 2.7% !important;
-  margin-right: 0 !important;
-}
-
-.info__serving {
-  padding-left: 0.2em !important;
-}
-
-.info__recipe {
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 11px;
-  color: black;
-  padding-top: 0.2em;
-}
-
-.info__recipe span {
-  color: #c4c4c4 !important;
-}
-
-.receipe-app .row{
+.receipe-app .row {
   margin-bottom: 0 !important;
 }
 
@@ -59,30 +35,238 @@
   padding-top: 3% !important;
 }
 
-.yields{
-    padding-top: 1% !important;
+
+.info {
+  margin: 0.6em 0 1.2em 0.4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
 }
 
-.yields {
+.info div:nth-child(1) {
+  grid-column: 1 / 4;
+}
+
+.info > div {
+  margin-top: 0.6em;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.info div > div {
+  margin-left: 0.2em;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info div:nth-child(1) > i,
+.info div:nth-child(1) > div span:nth-child(2) {
   color: #f2994a;
-  font-size: 15px;
-  padding-top: 2.7% !important;
-  margin-right: 0 !important;
 }
 
-.yields__serving {
-  padding-left: 0.2em;
-}
-
-.yields__recipe {
-  font-family: Montserrat;
-  font-weight: 500;
+.info div > div span:nth-child(1) {
+  color: #bdbdbd;
   font-size: 8px;
-  line-height: 11px;
-  color: #f2994a;
-  padding-top: 0.2em;
+  font-weight: bold;
 }
 
-.yields__recipe span {
-  color: #c4c4c4 !important;
+.info div > div span:nth-child(2) {
+  color: #333333;
+  font-size: 8px;
+  font-weight: 500;
+}
+
+
+
+/*Mobile M*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .description__recipe {
+    font-size: 0.9em;
+    line-height: 17px;
+  }
+
+  .grain {
+    font-size: 15px;
+  }
+
+  .title__recipe {
+    font-size: 1.7em;
+  }
+}
+
+/*Mobile L*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .description__recipe {
+    font-size: 1em;
+    line-height: 17px;
+  }
+
+  .grain {
+    font-size: 15px;
+  }
+
+  .title__recipe {
+    font-size: 1.8em;
+  }
+
+  .info {
+    margin: 0.6em 0 1.2em 0.6em;
+  }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .description__recipe {
+    font-size: 1em;
+    line-height: 17px;
+  }
+
+  .grain {
+    font-size: 25px;
+  }
+
+  .title__recipe {
+    font-size: 2.7em;
+  }
+
+  .image__recipe{
+    width: 97%;
+  }
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .description__recipe {
+    font-size: 1em;
+    line-height: 17px;
+    padding-right: 12em;
+  }
+
+  .legend {
+    margin: 5%;
+    background-color: green;
+    border-radius: 5%;
+    width: 160px !important;
+  }
+
+  .grain {
+    font-size: 25px;
+  }
+
+  .title__recipe {
+    font-size: 2.7em;
+  }
+
+  .box {
+    margin-top: 2.8em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .box > div:nth-child(2) {
+    width: 54%;
+  }
+
+  .info {
+    margin: 0;
+    padding: 0 2em;
+    display: initial;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+  }
+
+  .info > div {
+    margin: 2em 0;
+    width: 140px;
+  }
+
+  .info div > i {
+    margin-right: 0.2em;
+    font-size: 32px;
+  }
+
+
+  .image__recipe{
+    width: 97%;
+  }
+
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px) {
+  .description__recipe {
+    font-size: 1.2em;
+    line-height: 25px;
+    padding-right: 12em;
+  }
+
+  .legend {
+    margin: 5%;
+    background-color: green;
+    border-radius: 5%;
+    width: 160px !important;
+  }
+
+  .grain {
+    font-size: 25px;
+  }
+
+  .title__recipe {
+    font-size: 2.7em;
+  }
+
+  .image__recipe{
+    width: 97%;
+  }
+
+  .box {
+    margin-top: 2.8em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .box > div:nth-child(2) {
+    width: 54%;
+  }
+
+  .info {
+    margin: 0;
+    padding: 0 2em;
+    display: initial;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+  }
+
+  .info > div {
+    margin: 2em 0;
+    width: 140px;
+  }
+
+  .info div > i {
+    margin-right: 0.2em;
+    font-size: 32px;
+  }
+
+  .info div > div span:nth-child(1) {
+    font-size: 10px;
+  }
+
+  .info div > div span:nth-child(2) {
+    font-size: 10px;
+  }
+
+
 }

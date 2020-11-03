@@ -6,32 +6,30 @@
   color: #333333;
 }
 .marker {
-  background-color: #f2994a; 
-  width: 36px;
-  height: 36px;
-  margin-right: 1em;
-  padding: 1em;
+  background-color: #f2994a;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5em;
+  padding: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  color: white;
-
   font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 13m;
-line-height: 32px;
-
-
-color: #FFFFFF;
-
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 32px;
+  color: #ffffff;
 }
+
 .instructions__list {
   margin: 1.6em 0;
   display: flex;
   align-items: flex-start;
 }
+
+
 .instructions_bold {
   font-family: Montserrat;
   font-style: normal;
@@ -39,4 +37,71 @@ color: #FFFFFF;
   font-size: 0.8em;
   line-height: 150%;
   color: #333333;
+}
+
+/*Mobile M*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .instructions {
+    font-size: 1em;
+  }
+
+  .instructions_bold {
+    font-size: 1em;
+  }
+}
+
+/*Mobile L*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .instructions {
+    font-size: 1.1em;
+  }
+
+  .instructions_bold {
+    font-size: 1.1em;
+  }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .instructions {
+    font-size: 1.1em;
+  }
+
+  .instructions_bold {
+    font-size: 1.1em;
+  }
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .instructions {
+    font-size: 1.1em;
+  }
+
+  .instructions_bold {
+    font-size: 1.1em;
+  }
+  .steps{
+    padding-top: 65%;
+  }
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px) {
+  .instructions {
+    font-size: 1.1em;
+  }
+
+  .instructions_bold {
+    font-size: 1.1em;
+  }
+
+  .steps{
+    padding-top: 47%;
+  }
 }

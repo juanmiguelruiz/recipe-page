@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUtensils, faClock } from "@fortawesome/free-solid-svg-icons";
 
 const Card = ({
   title,
@@ -14,7 +12,7 @@ const Card = ({
   total_time,
 }) => {
   return (
-    <div className="row">
+    <div>
       <div className="col s12">
         <p className="title__recipe">{title}</p>
       </div>
@@ -25,48 +23,40 @@ const Card = ({
         <p className="description__recipe">{description}</p>
       </div>
       <img src={image} alt="" className="image__recipe" />
-      <div className="yields-grid">
-        <div className="col s1 yields">
-          <FontAwesomeIcon className="yields" icon={faUtensils} />
-        </div>
-        <div className="col s11 yields__servings">
-          <p className="yields__recipe">
-            <span>YIELDS</span>
-            <br />
-            {yields}
-          </p>
-        </div>
-      </div>
-      <div className="info-grid">
-        <div className="col s1 info">
-          <FontAwesomeIcon className="info" icon={faClock} />
-        </div>
-        <div className="col s3 info__serving">
-          <p className="info__recipe">
-            <span>PREP TIME</span>
-            <br />
-            {prep_time}
-          </p>
-        </div>
-        <div className="col s1 info">
-          <FontAwesomeIcon className="infos" icon={faClock} />
-        </div>
-        <div className="col s3 info__serving">
-          <p className="info__recipe">
-            <span>COOK TIME</span>
-            <br />
-            {cook_time}
-          </p>
-        </div>
-        <div className="col s1 info">
-          <FontAwesomeIcon className="infos" icon={faClock} />
-        </div>
-        <div className="col s3 info__serving">
-          <p className="info__recipe">
-            <span>TOTAL TIME</span>
-            <br />
-            {total_time}
-          </p>
+
+      <div className="col s12 l4 box right">
+      <div class="info">
+          <div>
+            <i class="material-icons">restaurant_menu</i>
+            <div>
+              <span>YIELDS</span>
+              <span>12 servings</span>
+            </div>
+          </div>
+
+          <div>
+            <i class="material-icons">schedule</i>
+            <div>
+              <span>PREP TIME</span>
+              <span>45 minutes</span>
+            </div>
+          </div>
+
+          <div>
+            <i class="material-icons">schedule</i>
+            <div>
+              <span>COOK TIME</span>
+              <span>1 hour</span>
+            </div>
+          </div>
+
+          <div>
+            <i class="material-icons">schedule</i>
+            <div>
+              <span>TOTAL TIME</span>
+              <span>7,75 hours</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

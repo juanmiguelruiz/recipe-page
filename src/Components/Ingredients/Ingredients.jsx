@@ -6,8 +6,8 @@ import Item from "./Item";
 
 const Ingredients = ({ first_title, second_title }) => {
   return (
-    <div className="row">
-      <div className="col s12">
+    <div className="ingredients">
+      <div className="col s12 l8">
         <p className="title__ingredients">Ingredients</p>
         <p className="subtitle__ingredients">{first_title}</p>
         <ul>

@@ -6,8 +6,8 @@ import { object } from "prop-types";
 
 const Instructions = ({ first_title, second_title }) => {
   return (
-    <div className="row">
-      <div className="col s12">
+    <div className="steps">
+      <div className="col s12 l8">
         <p className="title__ingredients">Instructions</p>
         <ul>
           <Item
