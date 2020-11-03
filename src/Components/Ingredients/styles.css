@@ -114,7 +114,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .checkbox__text {
     font-size: 1.2em !important;
-    
+
   }
   .subtitle__ingredients {
     font-size: 1.4em;
@@ -132,7 +132,7 @@
 @media screen and (min-width: 1440px){
   .checkbox__text {
     font-size: 1.2em !important;
-    
+
   }
   .subtitle__ingredients {
     font-size: 1.4em;
@@ -143,5 +143,3 @@
   }
 
 }
-
-

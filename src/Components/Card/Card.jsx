@@ -25,7 +25,7 @@ const Card = ({
       <img src={image} alt="" className="image__recipe" />
 
       <div className="col s12 l4 box right">
-      <div class="info">
+      <div class="info-recipe">
           <div>
             <i class="material-icons">restaurant_menu</i>
             <div>

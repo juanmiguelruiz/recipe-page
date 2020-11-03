@@ -6,7 +6,7 @@ const Item = ({ text }) => {
   return (
     <li>
       <label>
-        <input className="checkbox_receipe filled-in" type="checkbox" />
+        <input className="checkbox_recipe filled-in" type="checkbox" />
         <span className="checkbox__text">{text}</span>
       </label>
     </li>

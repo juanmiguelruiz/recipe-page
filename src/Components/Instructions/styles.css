@@ -29,7 +29,6 @@
   align-items: flex-start;
 }
 
-
 .instructions_bold {
   font-family: Montserrat;
   font-style: normal;
@@ -85,8 +84,8 @@
   .instructions_bold {
     font-size: 1.1em;
   }
-  .steps{
-    padding-top: 65%;
+  .steps {
+    padding-top: 62%;
   }
 }
 
@@ -101,7 +100,7 @@
     font-size: 1.1em;
   }
 
-  .steps{
-    padding-top: 47%;
+  .steps {
+    padding-top: 39%;
   }
 }

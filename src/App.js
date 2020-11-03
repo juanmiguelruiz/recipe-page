@@ -1,11 +1,11 @@
 import "./App.css";
 import Card from "./Components/Card";
-import photo from "./assets/img/photo1.png";
+import photo from "./assets/img/recipe-page/photo1.png";
 import Ingredients from "./Components/Ingredients";
 import Instructions from "./Components/Instructions";
 function App() {
   return (
-    <div className="receipe-app container">
+    <div className="recipe-app container">
       <div className="row">
         <Card
           title="Classic Cheesecake Recipe"
@@ -23,10 +23,10 @@ function App() {
         />
         <Instructions />
       </div>
-      <p className="source__receipe">
+      <p className="source__recipe">
         Source: https://sallysbakingaddiction.com/classic-cheesecake/{" "}
       </p>
-      <footer className="footer__receipe">
+      <footer className="footer__recipe">
         <p>juanmiguelruiz @ DevChallenges.io</p>
       </footer>
     </div>
