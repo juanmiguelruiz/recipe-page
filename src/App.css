@@ -36,11 +36,11 @@
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
   .source__receipe {
-    font-size: 1em;
+    font-size: .8em;
   }
 
   .footer__receipe {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -48,11 +48,11 @@
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .source__receipe {
-    font-size: 1em;
+    font-size: .9em;
   }
 
   .footer__receipe {
-    font-size: 1em;
+    font-size: .9em;
   }
 }
 
