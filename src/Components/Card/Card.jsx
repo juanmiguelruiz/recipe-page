@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import "./styles.css";
 
 const Card = ({
@@ -13,53 +14,53 @@ const Card = ({
 }) => {
   return (
     <div>
-      <div className="col s12">
-        <p className="title__recipe">{title}</p>
-      </div>
-      <div className="col s1">
-        <i className="material-icons grain">grain </i>
-      </div>
-      <div className="col s11">
-        <p className="description__recipe">{description}</p>
-      </div>
-      <img src={image} alt="" className="image__recipe" />
+     <div className="col s12">
+       <p className="recipe__title">{title}</p>
+     </div>
+     <div className="col s1">
+       <i className="material-icons recipe__grain">grain </i>
+     </div>
+     <div className="col s11">
+       <p className="recipe__description">{description}</p>
+     </div>
+     <img src={image} alt="" className="recipe__image" />
 
-      <div className="col s12 l4 box right">
-      <div class="info-recipe">
-          <div>
-            <i class="material-icons">restaurant_menu</i>
-            <div>
-              <span>YIELDS</span>
-              <span>12 servings</span>
-            </div>
-          </div>
+     <div className="col s12 l4 recipe__box right">
+       <div class="recipe__info">
+         <div>
+           <i class="material-icons">restaurant_menu</i>
+           <div>
+             <span>YIELDS</span>
+             <span>12 servings</span>
+           </div>
+         </div>
 
-          <div>
-            <i class="material-icons">schedule</i>
-            <div>
-              <span>PREP TIME</span>
-              <span>45 minutes</span>
-            </div>
-          </div>
+         <div>
+           <i class="material-icons">schedule</i>
+           <div>
+             <span>PREP TIME</span>
+             <span>45 minutes</span>
+           </div>
+         </div>
 
-          <div>
-            <i class="material-icons">schedule</i>
-            <div>
-              <span>COOK TIME</span>
-              <span>1 hour</span>
-            </div>
-          </div>
+         <div>
+           <i class="material-icons">schedule</i>
+           <div>
+             <span>COOK TIME</span>
+             <span>1 hour</span>
+           </div>
+         </div>
 
-          <div>
-            <i class="material-icons">schedule</i>
-            <div>
-              <span>TOTAL TIME</span>
-              <span>7,75 hours</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+         <div>
+           <i class="material-icons">schedule</i>
+           <div>
+             <span>TOTAL TIME</span>
+             <span>7,75 hours</span>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
   );
 };
 

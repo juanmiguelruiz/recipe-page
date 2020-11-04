@@ -1,11 +1,11 @@
-.instructions {
+.recipe__instructions {
   font-family: Montserrat;
   font-style: normal;
   font-size: 0.8em;
   line-height: 150%;
   color: #333333;
 }
-.marker {
+.recipe__instructions__list__marker {
   background-color: #f2994a;
   width: 20px;
   height: 20px;
@@ -23,13 +23,13 @@
   color: #ffffff;
 }
 
-.instructions__list {
+.recipe__instructions__list {
   margin: 1.6em 0;
   display: flex;
   align-items: flex-start;
 }
 
-.instructions_bold {
+.recipe__instructions__list__item--bold {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
@@ -41,11 +41,11 @@
 /*Mobile M*/
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .instructions {
+  .recipe__instructions {
     font-size: 1em;
   }
 
-  .instructions_bold {
+  .recipe__instructions__list__item--bold {
     font-size: 1em;
   }
 }
@@ -53,11 +53,11 @@
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .instructions {
+  .recipe__instructions {
     font-size: 1.1em;
   }
 
-  .instructions_bold {
+  .recipe__instructions__list__item--bold {
     font-size: 1.1em;
   }
 }
@@ -65,11 +65,11 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .instructions {
+  .recipe__instructions {
     font-size: 1.1em;
   }
 
-  .instructions_bold {
+  .recipe__instructions__list__item--bold {
     font-size: 1.1em;
   }
 }
@@ -77,11 +77,11 @@
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .instructions {
+  .recipe__instructions {
     font-size: 1.1em;
   }
 
-  .instructions_bold {
+  .recipe__instructions__list__item--bold {
     font-size: 1.1em;
   }
   .steps {
@@ -92,11 +92,11 @@
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
-  .instructions {
+  .recipe__instructions {
     font-size: 1.1em;
   }
 
-  .instructions_bold {
+  .recipe__instructions__list__item--bold {
     font-size: 1.1em;
   }
 

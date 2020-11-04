@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./styles.css";
 
+import "./styles.css";
 
 const Item = ({ title, text, marker }) => {
 
   return (
-    <li className="instructions__list">
-      <span className="marker">{marker}</span>
-      <div>
-        <span className="instructions_bold">{title} </span>
-        <span className="instructions">{text}</span>
-      </div>
-    </li>
+    <li className="recipe__instructions__list">
+         <span className="recipe__instructions__list__marker">{marker}</span>
+         <div>
+           <span className="recipe__instructions__list__item--bold">{title} </span>
+           <span className="recipe__instructions">{text}</span>
+         </div>
+       </li>
   );
 };
 

@@ -2,7 +2,7 @@
   font-family: Montserrat;
 }
 
-.source__recipe {
+.recipe__source {
   font-family: Montserrat;
   font-style: italic;
   font-weight: normal;
@@ -12,7 +12,7 @@
   padding: 3% 5% 10% 5%;
 }
 
-.footer__recipe {
+.recipe__footer {
   position: relative;
   text-align: center;
   padding: 3%;
@@ -45,11 +45,11 @@
 /*Mobile M*/
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .source__recipe {
+  .recipe__source {
     font-size: 0.8em;
   }
 
-  .footer__recipe {
+  .recipe__footer {
     font-size: 0.8em;
   }
   .link__portfolio {
@@ -60,11 +60,11 @@
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .source__recipe {
+  .recipe__source {
     font-size: 0.9em;
   }
 
-  .footer__recipe {
+  .recipe__footer {
     font-size: 0.9em;
   }
 
@@ -76,11 +76,11 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .source__recipe {
+  .recipe__source {
     font-size: 1em;
   }
 
-  .footer__recipe {
+  .recipe__footer {
     font-size: 1em;
   }
 
@@ -92,11 +92,11 @@
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .source__recipe {
+  .recipe__source {
     font-size: 1em;
   }
 
-  .footer__recipe {
+  .recipe__footer {
     font-size: 1em;
   }
 
@@ -108,11 +108,11 @@
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
-  .source__recipe {
-    font-size: 1em;
+  .recipe__source {
+    font-size: 1.2em;
   }
 
-  .footer__recipe {
+  .recipe__footer {
     font-size: 1em;
   }
 
