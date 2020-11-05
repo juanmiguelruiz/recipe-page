@@ -8,7 +8,7 @@ User story: I can see a recipe with ingredients and instructions
 User story: I can select a checkbox if I have the ingredients
 User story: I can see number of servings, baking times
 
-Tech: React.
+Tech: ReactJS.
 
 <img src="https://github.com/juanmiguelruiz/recipe-page/blob/main/src/assets/img/preview_git.png" alt="" width=100%/>
 <img src="https://github.com/juanmiguelruiz/recipe-page/blob/main/src/assets/img/preview_mobile_git.png" alt="" width=30%/>
