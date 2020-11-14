@@ -1,6 +1,6 @@
 # Recipe page (devchallenges.io challenge)
 
-<a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">Challenge</a> | <a href="recipe-page-nine.vercel.app">Demo</a>
+<a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">Challenge</a> | <a href="https://recipe-page-nine.vercel.app/">Demo</a>
 
 Challenge: Create a recipe page following the given design. You can use your own recipe and remember to put the source. The page should be responsive. Don’t look at existing solution. Fulfill user stories below:
 
