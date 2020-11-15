@@ -1,4 +1,4 @@
-.recipe_checkbox__text {
+.recipe__checkbox__text {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -11,11 +11,11 @@
   margin-top: 3%;
 }
 
-.subtitle__ingredients {
+.recipe__ingredients__subtitle {
   font-family: Playfair Display;
   font-style: italic;
   font-weight: 200;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 0.7em;
   color: #333333;
 }
@@ -65,7 +65,7 @@
 /*Mobile M*/
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .recipe_checkbox__text {
+  .recipe__checkbox__text {
     font-size: 1em !important;
   }
   .recipe__ingredients__subtitle {
@@ -80,7 +80,7 @@
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .recipe_checkbox__text {
+  .recipe__checkbox__text {
     font-size: 1.2em !important;
   }
   .recipe__ingredients__subtitle {
@@ -95,7 +95,7 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .recipe_checkbox__text {
+  .recipe__checkbox__text {
     font-size: 1.2em !important;
   }
   .recipe__ingredients__subtitle {
@@ -105,12 +105,21 @@
   .recipe__ingredients__title {
     font-size: 1.5em;
   }
+  .recipe__description {
+    margin-left: -13% !important;
+    font-size: 1.1em;
+  }
+  
+  .recipe__image {
+    width: 95%;
+  }
+
 }
 
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .recipe_checkbox__text {
+  .recipe__checkbox__text {
     font-size: 1.2em !important;
   }
   .recipe__ingredients__subtitle {
@@ -125,7 +134,7 @@
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
-  .recipe_checkbox__text {
+  .recipe__checkbox__text {
     font-size: 1.2em !important;
   }
   .recipe__ingredients__subtitle {

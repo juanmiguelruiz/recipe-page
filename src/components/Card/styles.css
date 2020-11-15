@@ -5,16 +5,20 @@
   font-family: Montserrat;
   font-style: italic;
   font-weight: 400;
-  font-size: 0.7em;
-  line-height: 15px;
+  font-size: 0.6em;
+  line-height: 10px;
   margin-top: 0%;
-  margin-left: -2%;
+  margin-left: -7%;
   padding-right: 5%;
 }
 
 .recipe__recipe__grain {
   color: #c4c4c4;
   font-size: 15px;
+}
+
+.recipe__grain{
+  margin-right: 1%;
 }
 
 .recipe__image {
@@ -136,6 +140,18 @@
   .image__recipe {
     width: 97%;
   }
+
+  .recipe__info div > div span:nth-child(1) {
+    color: #bdbdbd;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .recipe__info div > div span:nth-child(2) {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
 
 /*Laptop*/
@@ -144,7 +160,8 @@
   .recipe__description {
     font-size: 1em;
     line-height: 17px;
-    padding-right: 12em;
+    padding-right: 14em;
+    margin-left: -15%;
   }
 
   .legend {
@@ -192,16 +209,16 @@
     font-size: 32px;
   }
 
-  .image__recipe {
-    width: 97%;
+  .recipe__image {
+    width: 96%;
   }
 
   .recipe__info div > div span:nth-child(1) {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .recipe__info div > div span:nth-child(2) {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
@@ -209,9 +226,10 @@
 
 @media screen and (min-width: 1440px) {
   .recipe__description {
-    font-size: 1.2em;
-    line-height: 25px;
-    padding-right: 12em;
+    font-size: 1.4em;
+    line-height: 23px;
+    padding-right: 18em;
+    margin-left: -15%;
   }
 
   .recipe__grain {
@@ -222,7 +240,7 @@
     font-size: 2.7em;
   }
 
-  .image__recipe {
+  .recipe__image {
     width: 97%;
   }
 
@@ -257,10 +275,10 @@
   }
 
   .recipe__info div > div span:nth-child(1) {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .recipe__info div > div span:nth-child(2) {
-    font-size: 10px;
+    font-size: 14px;
   }
 }

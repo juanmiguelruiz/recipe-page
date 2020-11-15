@@ -17,10 +17,10 @@ const Card = ({
      <div className="col s12">
        <p className="recipe__title">{title}</p>
      </div>
-     <div className="col s1">
+     <div className="col s2">
        <i className="material-icons recipe__grain">grain </i>
      </div>
-     <div className="col s11">
+     <div className="col s10">
        <p className="recipe__description">{description}</p>
      </div>
      <img src={image} alt="" className="recipe__image" />

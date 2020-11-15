@@ -26,7 +26,7 @@ function App() {
          <Instructions />
        </div>
        <p className="recipe__source">
-         Source: https://sallysbakingaddiction.com/classic-cheesecake/{" "}
+         Source:<br/> https://sallysbakingaddiction.com/classic-cheesecake/{" "}
        </p>
        
        <footer className="recipe__footer">

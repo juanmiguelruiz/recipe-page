@@ -7,7 +7,7 @@ const Instructions = ({ first_title, second_title }) => {
   return (
     <div className="steps">
      <div className="col s12 l8">
-       <p className="title__ingredients">Instructions</p>
+       <p className="recipe__ingredients__title">Instructions</p>
        <ul>
          <Item
            marker={1}
