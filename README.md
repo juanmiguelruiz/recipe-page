@@ -1,14 +1,16 @@
-# Recipe page (devchallenges.io challenge)
+# Todo app (devchallenges.io challenge)
 
-<a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">Challenge</a> | <a href="https://recipe-page-nine.vercel.app/">Demo</a>
+<a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">Challenge</a> | <a href="/">Demo</a>
 
-Challenge: Create a recipe page following the given design. You can use your own recipe and remember to put the source. The page should be responsive. Don’t look at existing solution. Fulfill user stories below:
+Challenge: Create a todo app following given designs. Use Front-end libraries like React or Vue. Don’t look at the existing solution. Fulfill user stories below:
 
-User story: I can see a recipe with ingredients and instructions
-User story: I can select a checkbox if I have the ingredients
-User story: I can see number of servings, baking times
+User story: I can add a new task
+User story: I can complete a task
+User story: I can toggle between All, Active and Completed
+User story: I can remove one or all tasks under the Completed tab
+User story (optional): Store the data in local storage that when I refresh the page I can still see my progress
 
 Tech: ReactJS.
 
-<img src="https://github.com/juanmiguelruiz/recipe-page/blob/main/src/assets/img/preview_git.png" alt="" width=100%/>
-<img src="https://github.com/juanmiguelruiz/recipe-page/blob/main/src/assets/img/preview_mobile_git.png" alt="" width=30%/>
+<img src="https://github.com/juanmiguelruiz/todo-app/blob/main/src/assets/preview.png" alt="" width=100%/>
+<img src="https://github.com/juanmiguelruiz/todo-app/blob/main/src/assets/preview_m.png" alt="" width=30%/>
