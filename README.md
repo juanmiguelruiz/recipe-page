@@ -1,6 +1,6 @@
 # Todo app (devchallenges.io challenge)
 
-<a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">Challenge</a> | <a href="https://todo-app-snowy.vercel.app/">Demo</a>
+<a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">Challenge</a> | <a href="/">Demo</a>
 
 Challenge: Create a todo app following given designs. Use Front-end libraries like React or Vue. Don’t look at the existing solution. Fulfill user stories below:
 
